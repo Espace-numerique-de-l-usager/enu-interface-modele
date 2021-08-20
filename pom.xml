@@ -7,7 +7,10 @@
     <artifactId>enu-model</artifactId>
     <version>0.11-SNAPSHOT</version>
     <packaging>jar</packaging>
+
+    <name>enu-model</name>
     <description>Modèle objet pour l'API externe de l'ENU</description>
+    <url>https://github.com/Espace-numerique-de-l-usager/enu-model</url>
 
     <properties>
         <java.version>8</java.version>
