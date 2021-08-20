@@ -47,10 +47,12 @@
     </scm>
 
     <distributionManagement>
+        <!--
         <repository>
             <id>internal.project.release</id>
             <url>${maven2Repository_projet}/project_release</url>
         </repository>
+        -->
         <snapshotRepository>
             <id>internal.project.snapshot</id>
             <url>${maven2Repository_projet}/project_snapshot</url>
