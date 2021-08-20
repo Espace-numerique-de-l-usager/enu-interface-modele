@@ -5,7 +5,7 @@
     <!-- le groupId doit commencer par "ch.ge.etat" afin que le JAR puisse etre pousse sur Maven Central -->
     <groupId>ch.ge.etat.ael.enu</groupId>
     <artifactId>enu-model</artifactId>
-    <version>0.10-SNAPSHOT</version>
+    <version>0.10</version>
     <packaging>jar</packaging>
     <description>Modèle objet pour l'API externe de l'ENU</description>
 
@@ -24,7 +24,7 @@
         <connection>scm:git:${env.GITLAB_URL}/enu-interface-modele.git</connection>
         <developerConnection>scm:git:${env.GITLAB_URL}/enu-interface-modele.git</developerConnection>
         <url>${env.GITLAB_URL}/enu-interface-modele.git</url>
-        <tag>HEAD</tag>
+        <tag>enu-model-0.10</tag>
     </scm>
 
     <distributionManagement>
