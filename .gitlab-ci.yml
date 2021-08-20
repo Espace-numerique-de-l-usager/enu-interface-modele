@@ -28,7 +28,9 @@ build_and_sonar:
     - mvn $MAVEN_CLI_OPTS clean deploy $SONAR_MAVEN_GOAL
       -Dsonar.host.url=$SonarQube_URL -Dsonar.gitlab.project_id=$CI_PROJECT_PATH -Dsonar.gitlab.commit_sha=$CI_COMMIT_SHA
       -Dsonar.gitlab.ref_name=$CI_COMMIT_REF_NAME -Dsonar.gitlab.max_blocker_issues_gate=-1 -Dsonar.gitlab.max_critical_issues_gate=-1
-  only:
+# remettre only !
+#  only:
+  except:
     - master
 
 # le deploiement des releases se fait sur le depot OSSRH de Sonatype, puis se progage automatiquement sur Maven Central
