@@ -12,6 +12,22 @@
     <description>Modèle objet pour l'API externe de l'ENU</description>
     <url>https://github.com/Espace-numerique-de-l-usager/enu-model</url>
 
+    <licenses>
+        <license>
+            <name>AGPL-3.0</name>
+            <url>https://www.gnu.org/licenses/agpl-3.0.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>EdG</name>
+            <email>opensource@etat.ge.ch</email>
+            <organization>Etat de Geneve, Switzerland</organization>
+            <organizationUrl>https://ge.ch</organizationUrl>
+        </developer>
+    </developers>
+
     <properties>
         <java.version>8</java.version>
         <version.lombok>1.18.20</version.lombok>
