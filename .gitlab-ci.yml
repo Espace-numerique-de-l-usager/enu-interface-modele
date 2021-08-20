@@ -46,6 +46,7 @@ release_master:
       -Possrh,maven-central
       -Dresume=false
       -Dusername=$SCM_USER -Dpassword=$SCM_PASSWORD
+      -DscmCommentPrefix="[skip ci]"
       -Darguments="
       -DskipTests=true
       -Dgpg.passphrase=$GPG_PASSPHRASE
